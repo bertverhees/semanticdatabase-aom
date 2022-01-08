@@ -1,0 +1,16 @@
+<ecore:EPackage xmlns:xmi="http://www.omg.org/XMI"
+                xmi:version="2.0"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+                name="bmmdesigner"
+                xsi:schemaLocation="http://www.eclipse.org/emf/2002/Ecore file://Ecore.xsd"
+                nsURI="http://www.rosa.nl/2021/bmmdesigner" nsPrefix="ecore">
+    <eSubpackages name="constraint_model_package">
+        <eClassifiers xsi:type="ecore:EClass" name="AOM_CObject" abstract="true">
+            <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+                <details key="documentation"
+                         value="Abstract model of constraint on any kind of object node."/>
+            </eAnnotations>
+        </eClassifiers>
+    </eSubpackages>
+</ecore:EPackage>
